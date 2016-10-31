@@ -1,0 +1,44 @@
+<!-- Each "button" will have a single event function with a parameter for each of the different parties. include a if statement for each case. Figure out if there are any other cases that  need to be covered (probably not) -->
+
+<!DOCTYPE html>
+<html>
+<body onload="loadXMLDoc()">
+
+<p>Get MPs</p>
+
+<table id="mp"></table>
+
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "mps.xml" , true);
+  xmlhttp.send();
+}
+
+function myFunction(xml) {
+  var x, i, xmlDoc, table;
+  xmlDoc = xml.responseXML;
+  table = "<tr><th>First Name</th><th>Last Name</th/><th>Constituency</th><th>Party</th></tr>";
+  x = xmlDoc.getElementsByTagName("MemberOfParliament");
+  for (i = 0; i < x.length; i++) {
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("PersonOfficialFirstName")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("PersonOfficialLastName")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("ConstituencyName")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("CaucusShortName")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("mp").innerHTML = table;
+}
+</script>
+
+</body>
+</html>
