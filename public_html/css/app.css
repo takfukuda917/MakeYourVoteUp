@@ -1,0 +1,180 @@
+/*====================
+   Fonts
+====================*/
+
+
+/*============
+BASE STYLES
+=============*/
+
+body {
+    background-color: #ffffff;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {}
+
+a {}
+
+video {
+    width: 100vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.mobile-hidden {
+    display: none;
+}
+
+
+/*============
+HEADER
+=============*/
+
+.page-header {
+    position: relative;
+    height: 100px;
+}
+
+
+/*============
+FOOTER
+=============*/
+
+
+/*============
+INDEX
+=============*/
+
+/* Video Slider Nav Fix */
+.flex-direction-nav {
+    line-height: normal;
+}
+
+
+/*============
+PARTY INFO
+=============*/
+/* PARTY 1*/
+/* PARTY 2*/
+/* PARTY 3*/
+/* PARTY 4*/
+
+/*============
+WHO'S MY MP
+=============*/
+
+
+/*=============
+COMPARE PARTIES
+==============*/
+
+
+/*============
+TABLET
+=============*/
+
+@media screen and (min-width: 48em) {
+    /*============
+    BASE STYLES
+    =============*/
+    h1 {}
+    h2 {}
+    h3 {}
+    h4 {}
+    h5 {}
+    h6 {}
+    p {}
+    .mobile-only {
+        display: none;
+    }
+    .mobile-hidden {
+        display: block;
+    }
+    .desktop-only {
+        display: none;
+    }
+    /*============
+    HEADER
+    =============*/
+    /*============
+    FOOTER
+    =============*/
+    /*============
+    INDEX
+    =============*/
+    /*============
+    PARTY INFO
+    =============*/
+    /* PARTY 1*/
+    /* PARTY 2*/
+    /* PARTY 3*/
+    /* PARTY 4*/
+
+    /*============
+    WHO'S MY MP
+    =============*/
+
+
+    /*=============
+    COMPARE PARTIES
+    ==============*/
+}
+
+
+/*============
+DESKTOP
+=============*/
+
+@media screen and (min-width: 64em) {
+    /*============
+    BASE STYLES
+    =============*/
+    body {}
+    h1 {}
+    h2 {}
+    h3 {}
+    h4 {}
+    h5 {}
+    h6 {}
+    p {}
+    /*============
+    HEADER
+    =============*/
+    /*============
+    FOOTER
+    =============*/
+    /*============
+    INDEX
+    =============*/
+    /*============
+    PARTY INFO
+    =============*/
+    /* PARTY 1*/
+    /* PARTY 2*/
+    /* PARTY 3*/
+    /* PARTY 4*/
+
+    /*============
+    WHO'S MY MP
+    =============*/
+
+
+    /*=============
+    COMPARE PARTIES
+    ==============*/
+}

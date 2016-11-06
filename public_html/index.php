@@ -1,8 +1,36 @@
 <?php include 'partials/header.php';?>
 
     <!-- HERO SECTION-->
-    <section class="page-hero">
+    <section class="hero-section">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <video controls>
+                        <source src="vid/vid1.mp4" type="video/mp4">
+                        <p>Your browser does not support HTML5 video.</p>
+                    </video>
 
+                </li>
+                <li>
+                    <video controls>
+                        <source src="vid/vid2.mp4" type="video/mp4">
+                        <p>Your browser does not support HTML5 video.</p>
+                    </video>
+                </li>
+                <li>
+                    <video controls>
+                        <source src="vid/vid3.mp4" type="video/mp4">
+                        <p>Your browser does not support HTML5 video.</p>
+                    </video>
+                </li>
+                <li>
+                    <video controls>
+                        <source src="vid/vid4.mp4" type="video/mp4">
+                        <p>Your browser does not support HTML5 video.</p>
+                    </video>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <main class="index-main">
