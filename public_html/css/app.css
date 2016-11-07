@@ -11,21 +11,47 @@ body {
     background-color: #ffffff;
 }
 
-h1 {}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+}
 
-h2 {}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
 
-h3 {}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
 
-h4 {}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
 
-h5 {}
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
 
-h6 {}
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
 
-p {}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 
-a {}
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
 
 video {
     width: 100vw;
@@ -47,7 +73,7 @@ HEADER
 
 .page-header {
     position: relative;
-    height: 100px;
+    height: 80px;
 }
 
 
@@ -63,6 +89,17 @@ INDEX
 /* Video Slider Nav Fix */
 .flex-direction-nav {
     line-height: normal;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-content a {
+    color: #e8112d;
+    border: solid #e8112d 2px;
+    padding: 7px;
+    text-transform: uppercase;
 }
 
 

@@ -37,13 +37,13 @@
         <!-- ABOUT SECTION -->
         <section class="about-section">
             <div class="row">
-                <div class="small-12 medium-6 large-6 columns">
+                <div class="about-content small-12 medium-6 large-6 columns">
                     <h1>about make your vote up</h1>
-                    <p>lorem ipsum</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing lorem Ipsum passages, and more recently with desktop publishing software like Aldus.</p>
                     <a href="#">compare parties</a>
                 </div>
-                <div class="small-12 medium-6 large-6 columns">
-                    <img src="" alt="About Image" />
+                <div class="mobile-hidden medium-6 large-6 columns">
+                    <img src="img/index/about.jpeg" alt="About Image" />
                 </div>
             </div>
         </section>
