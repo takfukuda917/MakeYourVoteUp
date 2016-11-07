@@ -50,10 +50,11 @@
 
         <!-- PARTIES LINKS SECTION -->
         <section class="parties-links-section">
+            <h1>political parties</h1>
             <div class="row">
                 <div class="small-12 medium-6 large-6 columns">
-                    <figure class="link-container">
-                        <img src="" alt="Parties Links" />
+                    <figure class="snip1091 liberal link-container">
+                        <img src="img/index/liberal.png" alt="Parties Links" />
                         <figcaption>
                             <h2>liberal party of canada</h2>
                         </figcaption>
@@ -61,8 +62,8 @@
                     </figure>
                 </div>
                 <div class="small-12 medium-6 large-6 columns">
-                    <figure class="link-container">
-                        <img src="" alt="Parties Links" />
+                    <figure class="snip1091 con link-container">
+                        <img src="img/index/con.jpg" alt="Parties Links" />
                         <figcaption>
                             <h2>conservative party of canada</h2>
                         </figcaption>
@@ -70,8 +71,8 @@
                     </figure>
                 </div>
                 <div class="small-12 medium-6 large-6 columns">
-                    <figure class="link-container">
-                        <img src="" alt="Parties Links" />
+                    <figure class="snip1091 green liberal link-container">
+                        <img src="img/index/green.jpg" alt="Parties Links" />
                         <figcaption>
                             <h2>green party</h2>
                         </figcaption>
@@ -79,8 +80,8 @@
                     </figure>
                 </div>
                 <div class="small-12 medium-6 large-6 columns">
-                    <figure class="link-container">
-                        <img src="" alt="Parties Links" />
+                    <figure class="snip1091 ndp liberal link-container">
+                        <img src="img/index/ndp.jpg" alt="Parties Links" />
                         <figcaption>
                             <h2>new democratic party</h2>
                         </figcaption>
