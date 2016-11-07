@@ -1,17 +1,19 @@
 <?php include 'partials/header.php';?>
 
     <!-- HERO SECTION-->
-    <section class="page-hero">
-        <h1>liberal party of canada</h1>
+    <section class="hero-section party-hero liberal-hero">
+        <div class="hero-container">
+            <h1>liberal party of canada</h1>
+        </div>
     </section>
 
     <main class="liberal-main">
         <!-- PARTY DESCRIPTION SECTION -->
         <section class="party-description">
             <div class="row">
-                <div class="small-12 medium-6 large-6 columns">
+                <div class="about-content small-12 medium-6 large-6 columns">
                     <h3>liberal - majority government</h3>
-                    <p>lorem ipsum</p>
+                    <p>Founded 1867, the Liberal Party were originally the party in favour of free trade with the USA and were against Imperialism. The Liberal Party has dominated federal politics for much of Canada's history, using the formula for success of straddling the political center developed under the leadership of Sir Wilfred Laurier. The Liberal Party has held power for almost 69 years in the 20th century—more than any other party in a developed country.</p>
                     <a href="#">see party mp</a>
                 </div>
                 <div class="small-12 medium-6 large-6 columns">
