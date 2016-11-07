@@ -58,23 +58,7 @@
                             </ul>
                         </nav>
                         <!-- TAB CONTENTS-->
-                        <div class="content-wrap">
-                            <div id="liberal-tab-box-1">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-2">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-3">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-4">
-                                <p>lorem ipsum</p>
-                            </div>
-                            <div id="liberal-tab-box-5">
-                                <p>lorem ipsum</p>
-                            </div>
-                        </div>
+                        <?php include 'partials/tabs.php' ?>
                     </div>
                 </div>
             </div>
