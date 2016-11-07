@@ -11,49 +11,21 @@ body {
     background-color: #ffffff;
 }
 
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 23px;
-    text-transform: uppercase;
-}
+h1 {}
 
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 700;
-}
+h2 {}
 
-h3 {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-}
+h3 {}
 
-h4 {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-}
+h4 {}
 
-h5 {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-}
+h5 {}
 
-h6 {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-}
+h6 {}
 
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
+p {}
 
-a {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-}
+a {}
 
 video {
     width: 100vw;
@@ -75,180 +47,75 @@ HEADER
 
 .page-header {
     position: relative;
-    height: 80px;
+    padding: 32px 50px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.header-li{
+    list-style: none;
+}
+
+.inline{
+    display: inline;
+}
+
+.header-anchor{
+    font-size: 1.361em;
+    color: black;
+    line-height: 200px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.desktop-anchor{
+    margin-left: 25px;
+}
+
+#mobile-header{
+    display: none;
+}
+
+.right{
+    float: right;
 }
 
 
 /*============
 FOOTER
 =============*/
+.page-footer{
+    position: relative;
+    padding: 50px;
+}
 
+.footer-second-row{
+    margin-top: 78px;
+}
+
+.footer-spacing{
+    margin-top: 31px;
+}
 
 /*============
 INDEX
 =============*/
 
-
 /* Video Slider Nav Fix */
-
 .flex-direction-nav {
     line-height: normal;
-}
-
-.about-content p {
-    margin-bottom: 20px;
-}
-
-.about-content a {
-    color: #e8112d;
-    border: solid #e8112d 2px;
-    padding: 7px;
-    text-transform: uppercase;
-}
-
-.parties-links-section {
-    padding: 50px 0;
-}
-
-.parties-links-section h1 {
-    padding: 0 0.625rem;
-}
-
-
-/* Links */
-
-.link-container:first-child {
-    margin-top: 10px;
-}
-
-.link-container {
-    margin-bottom: 5px;
-}
-
-figure {
-    margin: 0;
-}
-
-figure.snip1091 {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-}
-
-figure.snip1091 * {
-    -webkit-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
-}
-
-figure.snip1091 img {
-    opacity: 0.25;
-    max-width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-figure.snip1091 figcaption {
-    position: absolute;
-    top: 50%;
-    left: 30px;
-    right: 30px;
-    -webkit-transform: rotate(0deg) translateY(-50%) scale(1);
-    transform: rotate(0deg) translateY(-50%) scale(1);
-    -webkit-transform-origin: center 0;
-    transform-origin: center 0;
-}
-
-figure.snip1091 figcaption h2 {
-    top: 50%;
-    color: #ffffff;
-    padding: 10px 0;
-    margin: 0;
-}
-
-figure.snip1091 figcaption:before,
-figure.snip1091 figcaption:after {
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 100%;
-    height: 2px;
-    position: absolute;
-    content: "";
-    display: block;
-    -webkit-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
-}
-
-figure.snip1091 figcaption:before {
-    left: 0;
-    top: 0;
-}
-
-figure.snip1091 figcaption:after {
-    bottom: 0;
-    right: 0;
-}
-
-figure.snip1091.liberal {
-    background: #8d5f61;
-}
-
-figure.snip1091.con {
-    background: #5f6a79;
-}
-
-figure.snip1091.green {
-    background: #687f66;
-}
-
-figure.snip1091.ndp {
-    background: #947461;
-}
-
-figure.snip1091 a {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-}
-
-figure.snip1091:hover img,
-figure.snip1091.hover img {
-    opacity: 1;
-}
-
-figure.snip1091:hover figcaption,
-figure.snip1091.hover figcaption {
-    -webkit-transform: rotate(-45deg) translateY(-50%) scale(0.9);
-    transform: rotate(-45deg) translateY(-50%) scale(0.9);
-}
-
-figure.snip1091:hover figcaption:before,
-figure.snip1091.hover figcaption:before,
-figure.snip1091:hover figcaption:after,
-figure.snip1091.hover figcaption:after {
-    width: 200%;
 }
 
 
 /*============
 PARTY INFO
 =============*/
-
-
 /* PARTY 1*/
-
-
 /* PARTY 2*/
-
-
 /* PARTY 3*/
-
-
 /* PARTY 4*/
-
 
 /*============
 WHO'S MY MP
@@ -293,10 +160,6 @@ TABLET
     /*============
     INDEX
     =============*/
-
-    .parties-links-section h1 {
-        padding: 0 0.9375rem;;
-    }
     /*============
     PARTY INFO
     =============*/
@@ -304,9 +167,12 @@ TABLET
     /* PARTY 2*/
     /* PARTY 3*/
     /* PARTY 4*/
+
     /*============
     WHO'S MY MP
     =============*/
+
+
     /*=============
     COMPARE PARTIES
     ==============*/
@@ -323,9 +189,7 @@ DESKTOP
     =============*/
     body {}
     h1 {}
-    h2 {
-        font-size: 1.5rem;
-    }
+    h2 {}
     h3 {}
     h4 {}
     h5 {}
@@ -340,12 +204,6 @@ DESKTOP
     /*============
     INDEX
     =============*/
-
-    .parties-links-section h1 {
-        max-width: 75rem;
-        margin: auto;
-        margin-bottom: 10px;
-    }
     /*============
     PARTY INFO
     =============*/
@@ -353,9 +211,12 @@ DESKTOP
     /* PARTY 2*/
     /* PARTY 3*/
     /* PARTY 4*/
+
     /*============
     WHO'S MY MP
     =============*/
+
+
     /*=============
     COMPARE PARTIES
     ==============*/
