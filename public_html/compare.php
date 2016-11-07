@@ -218,7 +218,8 @@
 
         <!-- CHART SECTION -->
         <section class="chart-section">
-
+			<canvas id="chart">
+			</canvas>
         </section>
     </main>
 
