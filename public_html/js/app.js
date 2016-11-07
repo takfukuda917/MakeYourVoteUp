@@ -43,5 +43,15 @@ $(document).ready(function () {
                 }]
             }
         }
-    });   
+    });
+
+    //////////////////////
+    /// Tabs by Andrew ///
+    //////////////////////
+    
+    /// Tab callback function
+    $('#').on('toggle', (event, tab) => {
+        console.log(tab);
+        console.log(event);
+    })  
 });
