@@ -90,7 +90,7 @@ FOOTER
 =============*/
 .page-footer{
     position: relative;
-    padding: 50px;
+    padding: 64px 50px;
 }
 
 .footer-second-row{
@@ -100,6 +100,43 @@ FOOTER
 .footer-spacing{
     margin-top: 31px;
 }
+
+/*============
+TABBED CONTENT
+=============*/
+
+ul#tabs {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+ul#tabs li {
+    display: inline-block;
+    background-color: #32c896;
+    border-bottom: solid 5px #238b68;
+    padding: 5px 20px;
+    margin-bottom: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+ul#tabs li:hover {
+    background-color: #238b68;
+}
+ul#tabs li.active {
+    background-color: #238b68;
+}
+ul#tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul#tab li {
+    display: none;
+}
+ul#tab li.active {
+    display: block;
+}
+
 
 /*============
 INDEX
