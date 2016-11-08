@@ -18,7 +18,7 @@ $(document).ready(function() {
 
             //slideUp all elements (except target) at current depth or greater
             var depth = $(subItem).parents().length;
-            var allAtDepth = $(".accordion p, .accordion div").filter(function () {
+            var allAtDepth = $(".accordion p .accordion div").filter(function () {
                 if($(this).parents().length >= depth && this !== subItem.get(0)) {
                     return true;
                 }
