@@ -454,7 +454,6 @@ h4 {
 }
 
 .vote-con:hover {
-    color: #ffffff;
     background-color: #01209f;
 }
 
@@ -463,9 +462,17 @@ h4 {
     border: solid 1px #f37021;
 }
 
+.vote-ndp:hover {
+    background-color: #f37021;
+}
+
 .vote-green {
     color: #3d9b35;
     border: solid 1px #3d9b35;
+}
+
+.vote-green:hover {
+    background-color: #3d9b35;
 }
 
 .accordion p {
